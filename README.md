@@ -112,7 +112,7 @@ options 是可选的，可以设定拼音风格，或打开多音字选项。
 
 ### `.STYLE_NORMAL`
 
-普通风格，即不带音标。
+普通风格，即不带声调。
 
 如：`pin yin`
 
@@ -146,7 +146,7 @@ options 是可选的，可以设定拼音风格，或打开多音字选项。
 
 注意：部分汉字没有声母，如 `啊`，`饿` 等，另外 `y`, `w`, `yu` 都不是声母，
 这些汉字的拼音声母风格会返回 `""`。请仔细考虑你的需求是否应该使用首字母风格。
-详情请参考 [为什么没有 y, w, yu 几个声母](#为什么没有-y-w-yu-几个声母)
+详情请参考 [为什么没有 y, w, yu 几个声母](#为什么没有 -y-w-yu- 几个声母)
 
 ### `.STYLE_FIRST_LETTER`
 
@@ -165,9 +165,9 @@ npm test
 
 ### 关于 Web 版如何使用
 
-首先，我建议大家应该优先考虑在服务端一次性转换拼音并将结果持久化，避免中客户端每次转换损耗性能和体验。
+首先，我建议大家应该优先考虑在服务端一次性转换拼音并将结果持久化，避免在客户端每次转换损耗性能和体验。
 
-如果你坚持中客户端使用，你可以考虑使用 [Webpack](http://webpack.github.io/) + [Babel](http://babeljs.io/) 来转换成低端浏览器的可执行代码。
+如果你坚持在客户端使用，你可以考虑使用 [Webpack](http://webpack.github.io/) + [Babel](http://babeljs.io/) 来转换成低端浏览器的可执行代码。
 
 实在不想折腾，可以试试 https://github.com/hotoo/pinyin/tree/gh-pages/dist
 
@@ -232,11 +232,11 @@ API 和使用方式完成一致。
 
 你也可以选择使用支付宝或微信给我捐赠：
 
-![Alipay:hotoo.cn@gmail.com, WeChat:hotoome](http://hotoo.me/images/donate-hotoo.png)
+![Alipay:hotoo.cn@gmail.com, WeChat:hotoome](https://hotoo.github.io/images/donate-hotoo.png)
 
 或者直接捐赠给我妻子 [@lizzie](https://github.com/lizzie)：
 
-![Alipay:shenyan1985@gmail.com, WeChat:SunsetSunrising](http://hotoo.me/images/donate-lizzie.png)
+![Alipay:shenyan1985@gmail.com, WeChat:SunsetSunrising](https://hotoo.github.io/images/donate-lizzie.png)
 
 这两种捐赠的最终结果是一样的 :)
 
